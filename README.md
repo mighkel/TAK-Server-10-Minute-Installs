@@ -23,3 +23,11 @@ How, indeed.  Let's get started.
 
 # Let's do this
 
+Open the serverinstallscript.sh file and edit it.
+Goto the section:
+'# Begin Google Drive TAK Server download
+
+gdown [paste your g-drive file ID here - remove the brackets]'
+
+
+
