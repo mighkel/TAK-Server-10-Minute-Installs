@@ -23,7 +23,8 @@ How, indeed.  Let's get started.
 
 # Let's do this
 
-Open the serverinstallscript.sh file and edit it. 
+Open the serverinstallscript.sh file in your private repo and edit it. 
+
 Goto the section: 
 
 `# Begin Google Drive TAK Server download` 
