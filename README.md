@@ -1,5 +1,5 @@
 # TAK-Server-10-Minute-Installs
-This repo helps you script your way to fast TAK Server installs on Rocky Linux 8.  Credit to @misterdallas for writing the original script that is the baseline for this one.  I'm just adding a couple of up-front steps that will help taylor your script to your needs.  You'll need to be somewhat familiar with Google Drive and Github.  My baseline is working on a Windows 10 machine, and my TAK Server is on an [SSDNodes VPS](https://www.ssdnodes.com/manage/aff.php?aff=1554).  (Full disclosure: Above is a referral link.  Just search for "SSDNodes" if you feel _sold-out_.
+This repo helps you script your way to fast TAK Server installs on Rocky Linux 8.  Credit to [@misterdallas](https://github.com/misterdallas) for writing the original script that is the baseline for this one.  I'm just adding a couple of up-front steps that will help taylor your script to your needs.  You'll need to be somewhat familiar with Google Drive and Github.  My baseline is working on a Windows 10 machine, and my TAK Server is on an [SSDNodes VPS](https://www.ssdnodes.com/manage/aff.php?aff=1554).  (Full disclosure: Above is a referral link.  Just search for "SSDNodes" if you feel _sold-out_.
 
 # Why?
 When learning certs or experimenting with TAK Server configurations, it's just cleaner and  
