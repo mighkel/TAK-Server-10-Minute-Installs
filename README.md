@@ -28,11 +28,19 @@ Goto the section:
 
 `# Begin Google Drive TAK Server download` 
  
-Edit 
+Edit this line:
 
 `gdown [paste your g-drive file ID here - remove the brackets]` 
  
+From the gdrive link you saved earlier, example:
+https://drive.google.com/file/d/15lgptQBLAHBLAHBLAHjTngtGg/view?usp=share_link
+ 
+Copy the file ID, which is this portion of the link:
+15lgptQBLAHBLAHBLAHjTngtGg
 
+The line should look like this:
+
+`gdown 15lgptQBLAHBLAHBLAHjTngtGg`
 
 
 
