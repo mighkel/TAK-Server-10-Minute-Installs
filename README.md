@@ -16,7 +16,7 @@ How, indeed.  Let's get started.
    - Create a folder just for the above TAK Server file you downloaded and save the rpm to it. 
    - Set permissions to the file for "Anyone with the link" 
    - Copy down the link somewhere handy (I use Notepad) 
-### 3.  Github 
+### 3. Github 
     - Create a repository and set it to private (Example: "TS-Install") 
     - You can also copy this repo to your git, rename, and set private.  Up to you.
     - Generate a fine-grained personal access token and copy that to your notes. 
