@@ -8,15 +8,15 @@ When learning certs or experimenting with TAK Server configurations, it's just c
 How, indeed.  Let's get started.
 
 # Prerequisites
-###1. Account on https://tak.gov (yes, you can sign up with a gmail account) 
+### 1. Account on https://tak.gov (yes, you can sign up with a gmail account) 
    - Download the latest TAK Server rpm file (non-docker, single-install, non-hardened) 
    - Look for RHEL, ROCKY LINUX, & CENTOS 
    - As of this writing, we're using `takserver-4.8-RELEASE31.noarch.rpm` 
-###2. Google Drive 
+### 2. Google Drive 
    - Create a folder just for the above TAK Server file you downloaded and save the rpm to it. 
    - Set permissions to the file for "Anyone with the link" 
    - Copy down the link somewhere handy (I use Notepad) 
-###3.  Github 
+### 3.  Github 
     - Create a repository and set it to private (Example: "TS-Install") 
     - You can also copy this repo to your git, rename, and set private.  Up to you.
     - Generate a fine-grained personal access token and copy that to your notes. 
