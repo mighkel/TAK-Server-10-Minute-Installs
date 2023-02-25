@@ -17,5 +17,6 @@ How, indeed.  Let's get started.
    - Set permissions to the file for "Anyone with the link" 
    - Copy down the link somewhere handy (I use Notepad) 
 3.  Github 
-    - Create a private repository (Example: "TS-Install") 
+    - Create a repository and set it to private (Example: "TS-Install") 
     - Generate a fine-grained personal access token and copy that to your notes. 
+4.  Copy the 
