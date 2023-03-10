@@ -41,7 +41,7 @@ https://drive.google.com/file/d/15lgptQBLAHBLAHBLAHjTngtGg/view?usp=share_link
 Copy the file ID, which is this portion of the link:
 15lgptQBLAHBLAHBLAHjTngtGg
 
-The line in your script should look like this (with your file ID):
+The line in your script should look like this (with _your_ file ID):
 
 `gdown 15lgptQBLAHBLAHBLAHjTngtGg`
 
