@@ -30,7 +30,7 @@ How, indeed.  Let's get started.
 
 # Let's do this
 
-Open the serverinstallscript.sh file in your private repo and edit it. 
+Open the serverinstallscript.sh file in your private repo and edit it.
 
 Goto the section: 
 
@@ -66,11 +66,11 @@ Just make sure the install file name matches the file in your g-drive.
 sudo dnf install git -y
 git clone https://github.com/[YOUR GITHUB USERNAME]/[YOUR PRIVATE REPO].git
 ```
-Enter your github user name and press enter.  Example: Mine is "mighkel".
+Enter your github user name and press enter.
 
 Enter your git private access key and press enter.  It'll look something like this: 
 ```
-github_pat_12ABCDEFG0tpKcBmwrvBLAHblahBlAhMLdgPJFmFWjnGsuXMeUHf1WishP30pleWeRenTqfkENaSsh0L35
+github_pat_12ABCDEFG0tpKcBmwrvBLAHblahBlAhMLdgPJFmFWjnGsuXMeUHf1WishP30pleWeRenTfkENaSsh0L35
 ```
 
 ### Make the script executable
