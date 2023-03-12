@@ -94,10 +94,12 @@ cd
 This should get you up-and-running, so you can start getting into the TAK Server web ui and start playing around.
 You _will_ need to get familiar with the CoreConfig.xml, located in /opt/tak/.
 You _will_ need to adjust your firewall and CoreConfig settings once you've weened yourself off of the 8080 setup login.
-I'll try to add more on that later.  Right now your job is to learn about certs, and how to get your team connected - securely.
-I would start with JR's informative site: https://mytecknet.com/tag/tak/
-If you are in or around the public safety circles, you _must_ join the [TAK Syndicate](https://www.thetaksyndicate.org/).
+I'll try to add more on that later.  Right now your job is to learn about certs, and how to get your team connected - securely. 
 
+I would start with JR's informative site: https://mytecknet.com/tag/tak/ 
+ 
+If you are in or around the public safety circles, you _must_ join the [TAK Syndicate](https://www.thetaksyndicate.org/).
+ 
 I am also open to suggestions, issues, and pull requests to make this repo more useful to more people.
 If you come across any concise articles that fill in some of the blanks above, particularly in the prerequisites section, please feel free to share them.
 
