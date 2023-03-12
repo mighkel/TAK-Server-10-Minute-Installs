@@ -66,10 +66,11 @@ sudo /opt/tak/db-utils/takserver-setup-db.sh
 sudo systemctl daemon-reload
 
 # Move cert-metadata.sh file to /opt/tak/certs
+# Replace your filename and uncomment the next two lines if you've saved your own cert-metadat.sh file.
 
 # cd
 
-# sudo mv -f ./TS-Install/cert-metadata.sh /opt/tak/certs/cert-metadata.sh
+# sudo mv -f ./[YOUR REPO NAME]/cert-metadata.sh /opt/tak/certs/cert-metadata.sh
 
 # Start TAK Server Service
 
@@ -101,6 +102,7 @@ sudo firewall-cmd --reload
 echo "********** INSTALLATION COMPLETE! **********"
 echo ""
 echo "**** CHECK NOBODY IS OVER YOUR SHOULDER ****"
+echo "**** IF YOU POSTED YOUR CREDS HERE FOR FAST-COPYING ****"
 echo ""
 echo "Access your your TAK server via web browser"
 echo ""
@@ -113,6 +115,9 @@ echo ""
 echo "http://[YOUR PUBLIC IP]:8443 secure connection"
 echo "|"
 echo " ---> requires certificate creation"
+echo "|"
+echo "CREDS for copy/paste."
+echo "Edit the line below (then remove this one) if you want to quickly run the 8080 setup."
 echo "|"
 echo "sudo java -jar /opt/tak/utils/UserManager.jar usermod -A -p [YOUR ADMIN PASSWORD] [YOUR ADMIN USERNAME]"
 echo "|"
