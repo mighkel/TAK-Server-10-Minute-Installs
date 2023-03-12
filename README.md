@@ -1,5 +1,9 @@
 # TAK-Server-10-Minute-Installs
-This repo is intended to help you script your way to fast TAK Server installs on a Rocky Linux 8 virtual private server (VPS).  Credit to [@misterdallas](https://github.com/misterdallas) for writing and sharing the original script that is the baseline for this one.  I'm just adding a couple of up-front steps that will help taylor _your_ script to _your_ needs.  You'll need to be somewhat familiar with Google Drive, Github, and some basic Linux command line work.  My baseline is working on a Windows 10 machine, SSH into a VPS using Putty, and my TAK Server is installed on an [SSDNodes VPS](https://www.ssdnodes.com/manage/aff.php?aff=1554) G2 Standard/2vCPU/4GBRAM/80GBDisk.  _Full disclosure: Above is a referral link.  Just search for "SSDNodes" if you feel sold-out for some reason._
+Ok, maybe 11 or 12 minutes.  Either way, this repo is intended to help you script your way to fast TAK Server installs on a Rocky Linux 8 virtual private server (VPS).  
+Credit to [@misterdallas](https://github.com/misterdallas) for writing and sharing the original script that is the baseline for this one.  I'm just adding a couple of up-front steps that will help taylor _your_ script to _your_ needs.  
+
+You'll need to be somewhat familiar with Google Drive, Github, and some basic Linux command line work.  
+My testing/learning/training setup is working from a Windows 10 machine, SSH into a VPS using Putty, and my TAK Server is installed on an [SSDNodes VPS](https://www.ssdnodes.com/manage/aff.php?aff=1554) G2 Standard/2vCPU/4GBRAM/80GBDisk.  _Full disclosure: Above is a referral link.  Just search for "SSDNodes" if you feel sold-out for some reason._
 
 # Why?
 When learning certs or experimenting with TAK Server configurations, sometimes it's just cleaner and easier to tear it all down and start over.  After a few times, I figured I just don't need to practice TAK Server installs anymore.  I got that down now, so let's go for less typing!  Less time installing and re-installing = more time to beat your head against the next wall of learning! 
@@ -54,4 +58,27 @@ sudo yum install takserver-4.8-RELEASE31.noarch.rpm -y
 
 Just make sure the install file name matches the file in your g-drive.
 
+### Copy your Git repo to your VPS w/ git
+```
+sudo dnf install git -y
+git clone https://github.com/[YOUR GITHUB USERNAME]/[YOUR PRIVATE REPO].git
+```
+Enter your github user name and press enter.  Example: Mine is "mighkel".
 
+Enter your git private access key and press enter.  It'll look something like this: 
+```
+github_pat_12ABCDEFG0tpKcBmwrvBLAHblahBlAhMLdgPJFmFWjnGsuXMeUHf1WishP30pleWeRenTqfkENaSsh0L35
+```
+
+### Make the script executable
+```
+cd [YOUR PRIVATE REPO]
+chmod +x serverinstallscript.sh
+```
+## ***** EXECUTE THE SCRIPT *****
+
+### Return back to the /root directory and run the script
+```
+cd
+./[YOUR PRIVATE REPO]/serverinstallscript.sh
+```
