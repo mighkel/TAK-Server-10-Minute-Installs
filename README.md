@@ -19,7 +19,7 @@ How, indeed.  Let's get started.
 ### 3. Github
    - Create a repository and set it to private (Example: "TS-Install") 
    - You can also copy this repo to your git, rename, and set private.  Up to you.
-   - Generate a fine-grained personal access token and copy that to your notes.
+   - Generate a fine-grained personal access token and copy that to your _private_ notes.
 
 # Let's do this
 
