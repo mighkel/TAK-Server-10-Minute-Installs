@@ -6,7 +6,10 @@ You'll need to be somewhat familiar with Google Drive, Github, and some basic Li
 My testing/learning/training setup is working from a Windows 10 machine, SSH into a VPS using Putty, and my TAK Server is installed on an [SSDNodes VPS](https://www.ssdnodes.com/manage/aff.php?aff=1554) G2 Standard/2vCPU/4GBRAM/80GBDisk.  _Full disclosure: Above is a referral link.  Just search for "SSDNodes" if you feel sold-out for some reason._
 
 # Why?
-When learning certs or experimenting with TAK Server configurations, sometimes it's just cleaner and easier to tear it all down and start over.  After a few times, I figured I just don't need to practice TAK Server installs anymore.  I got that down now, so let's go for less typing!  Less time installing and re-installing = more time to beat your head against the next wall of learning! 
+When learning certs or experimenting with TAK Server configurations, sometimes it's just cleaner and easier to tear it all down and start over.  After a few times, I figured I just don't need to practice TAK Server installs anymore.  I got that down now, so let's go for less typing!  Less time installing and re-installing = more time to beat your head against the next wall of learning!
+
+The intended audience here is the budding TAK admin that just wants to get a damn server up and running and get most of the "Linuxy stuff" out of the way.
+**DO NOT PROCEED** thinking that this will get you to a secure TAK Server that is ready to deploy to your organization or agency.  You will have some hardening to do, and that is outside the scope of this project at this time.  
 
 # How?
 How, indeed.  Let's get started.
