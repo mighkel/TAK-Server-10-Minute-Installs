@@ -75,9 +75,12 @@ github_pat_12ABCDEFG0tpKcBmwrvBLAHblahBlAhMLdgPJFmFWjnGsuXMeUHf1WishP30pleWeRenT
 cd [YOUR PRIVATE REPO]
 chmod +x serverinstallscript.sh
 ```
-## ***** EXECUTE THE SCRIPT *****
+## EXECUTE THE SCRIPT
 
-### Return back to the /root directory and run the script
+### Return to the /root directory and run the script
+
+Are you ready?
+
 ```
 cd
 ./[YOUR PRIVATE REPO]/serverinstallscript.sh
