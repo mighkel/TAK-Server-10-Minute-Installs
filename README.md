@@ -99,10 +99,8 @@ I'll try to add more on that later.  Right now your job is to learn about certs,
 I would start with JR's informative site: https://mytecknet.com/tag/tak/ 
  
 If you are in or around the public safety circles, you _must_ join the [TAK Syndicate](https://www.thetaksyndicate.org/).
-
-Another really good resource is https://atakhq.com/
  
 I am also open to suggestions, issues, and pull requests to make this repo more useful to more people.
 If you come across any concise articles that fill in some of the blanks above, particularly in the prerequisites section, please feel free to share them.
 
-This stuff is hard if you're not a Linux and Networking guru, but it can be done, because I am neither and here we are.  :)
+This stuff is hard if you're not a Linux and networking guru, but it can be done, because I am neither and here we are.  :)
