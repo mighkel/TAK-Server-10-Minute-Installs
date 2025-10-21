@@ -1,0 +1,7 @@
+*.rpm
+*.tar.gz
+*.zip
+*_backup.*
+*-old.*
+config.local
+secrets/
